@@ -1,5 +1,5 @@
 
-import Op from './HookPrac/hook1';
+
 import DispTbl from './HookPrac/fastAPISurface1';
 import {BrowserRouter as BR, Routes, Route } from 'react-router-dom';
 import './App.css';
@@ -23,7 +23,6 @@ function App() {
       <BR>
         <Routes>
           <Route path='/'  element = {ret} />
-          <Route path='/para'  element = {<Op />} />
           <Route path='/table'  element = {<DispTbl />} />
         </Routes>
       </BR>
